@@ -1,0 +1,60 @@
+.login {
+    background-image: url('../../assert/log_bg.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-modal {
+    background: rgba(255, 255, 255, 0.85); 
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px; 
+}
+
+.register-modal h2 {
+    margin-bottom: 15px;
+
+}
+
+.form-input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: calc(100% - 22px); 
+}
+
+.submit-button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.back-button {
+    padding: 10px 15px;
+    background-color: transparent;
+    color: #007BFF;
+    border: 1px solid #007BFF;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0056b3; 
+}
+
+.back-button:hover {
+    color: #0056b3; 
+    border-color: #0056b3; 
+}

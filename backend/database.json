@@ -1,0 +1,53 @@
+{
+  "users": {
+    "test1@email.com": {
+      "name": "test1",
+      "password": "11",
+      "sessionActive": true
+    }
+  },
+  "listings": {
+    "648731384": {
+      "title": "demolist",
+      "owner": "test1@email.com",
+      "address": {
+        "street": "Kingsford",
+        "city": "SYD",
+        "postcode": "2052",
+        "state": "NSW"
+      },
+      "price": "300",
+      "thumbnail": "https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg",
+      "metadata": {
+        "number_rooms": 4,
+        "beds": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "amenities": [
+          "Parking",
+          "Gym"
+        ],
+        "baths": "2",
+        "property_type": "Apartment",
+        "images": [
+          "https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg"
+        ],
+        "listing_id": "648731384"
+      },
+      "reviews": [],
+      "availability": [
+        {
+          "start": "2023-11-01T06:58:58.000Z",
+          "end": "2023-11-23T06:58:58.000Z"
+        }
+      ],
+      "published": true,
+      "postedOn": "2023-11-06T07:01:39.524Z"
+    }
+  },
+  "bookings": {}
+}
